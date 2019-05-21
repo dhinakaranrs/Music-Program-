@@ -1,0 +1,185 @@
+#include<iostream.h>
+#include<fstream.h>
+#include<dos.h>
+#include<conio.h>
+#include<graphics.h>
+#include<stdio.h>
+#include<stdlib.h>
+struct music
+{
+char d;
+char ch;
+};
+void main(char ch)
+{
+clrscr();
+music m;
+ofstream f("MUSIC.DAT");
+{
+cout<<"\n\t\t\t\tWelcome";
+cout<<"\n\n\t\tDO YOU WANNA HEAR MY NEW SONG IN C++? (Y/N)";
+cin>>ch;
+if(ch=='Y'||ch=='y')
+{
+for(int h=0;h<2;h++)
+{
+for(int i=0;i<5;i++)
+{
+sound(125);
+delay(100);
+nosound();
+delay(100);
+nosound();
+sound(100);
+delay(100);
+nosound();
+}
+delay(100);
+nosound();
+for(int j=0;j<5;j++)
+{
+sound(150);
+delay(100);
+nosound();
+delay(100);
+nosound();
+sound(130);
+delay(100);
+nosound();
+}
+delay(100);
+nosound();
+for(int k=0;k<5;k++)
+ {
+ sound(150);
+delay(100);
+nosound();
+delay(100);
+nosound();
+ sound(130);
+delay(100);
+nosound();
+}
+delay(100);
+nosound();
+for(int l=0;l<3;l++)
+{
+sound(150);
+delay(100);
+nosound();
+delay(100);
+nosound();
+sound(130);
+delay(100);
+nosound();
+}
+nosound();
+ sound(125);
+delay(500);
+nosound();
+ sound(110);
+delay(400);
+nosound();
+sound(100);
+delay(500);
+nosound();
+delay(150);
+nosound();
+sound(100);
+delay(500);
+nosound();
+delay(100);
+nosound();
+sound(100);
+delay(100);
+nosound();
+delay(100);
+nosound();
+sound(110);
+delay(100);
+nosound();
+delay(100);
+nosound();
+ sound(125);
+delay(300);
+nosound();
+delay(100);
+nosound();
+sound(110);
+delay(100);
+nosound();
+ delay(100);
+ nosound();
+sound(100);
+ delay(100);
+ nosound();
+delay(100);
+nosound();
+sound(95);
+delay(100);
+nosound();
+delay(100);
+nosound();
+sound(95);
+ delay(300);
+ nosound();
+ delay(100);
+ nosound();
+sound(100);
+ delay(100);
+ nosound();
+ delay(100);
+ nosound();
+sound(100);
+ delay(500);
+ nosound();
+ delay(150);
+ nosound();
+sound(100);
+ delay(500);
+ nosound();
+ delay(100);
+ nosound();
+sound(100);
+ delay(100);
+ nosound();
+ delay(100);
+ nosound();
+sound(110);
+ delay(100);
+ nosound();
+ delay(100);
+ nosound();
+sound(125);
+ delay(300);
+ nosound();
+ delay(100);
+ nosound();
+sound(110);
+ delay(100);
+ nosound();
+sound(100);
+ delay(100);
+ nosound();
+ delay(100);
+ nosound();
+sound(130);
+ delay(300);
+ nosound();
+ delay(100);
+ nosound();
+sound(125);
+ delay(150);
+ nosound();
+ delay(200);
+ nosound();
+}
+int count=50;
+while(count--)
+{
+    sound(1000*random(5));
+    delay(200);
+    nosound();
+    textattr(random(1000)+'a'+BLINK);
+    cout<<"\n BY DHINAKARAN RS ";
+}}}}

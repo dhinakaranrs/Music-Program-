@@ -1,2 +1,2 @@
 # Music-Program-
-Own Music composition done in c++ programming language using Clark's Tables frequencies by Dhinakaran RS. 
+Own Music composition using Clark's Tables frequencies done in c++ programming language by Dhinakaran RS. 

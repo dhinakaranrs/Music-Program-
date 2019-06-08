@@ -1,3 +1,3 @@
 # Music-Program-
-Own Music composition using Clark's Tables frequencies was done in c++ programming language
+Own Music composition using Clark's Tables frequencies in c++ programming language
 BY DHINAKARAN RS
